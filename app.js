@@ -17,8 +17,8 @@ app.set('views', path.join(__dirname, 'views'));
 const mongoose = require("mongoose");
 mongoose
    // .connect("mongodb://aeshashahzad:ayesha1346cui@ac-auzjbha-shard-00-00.atoxoya.mongodb.net/GamingStore",  
-    // .connect("mongodb://aeshashahzad:ayesha1346cui@ac-auzjbha-shard-00-00.atoxoya.mongodb.net:27017,ac-auzjbha-shard-00-01.atoxoya.mongodb.net:27017,ac-auzjbha-shard-00-02.atoxoya.mongodb.net:27017/?ssl=true&replicaSet=atlas-f4tops-shard-0&authSource=admin&retryWrites=true&w=majority/GamingStore", 
-    .connect("mongodb://localhost:27017/GamingStore", 
+    .connect("mongodb://aeshashahzad:ayesha1346cui1346@ac-auzjbha-shard-00-00.atoxoya.mongodb.net:27017,ac-auzjbha-shard-00-01.atoxoya.mongodb.net:27017,ac-auzjbha-shard-00-02.atoxoya.mongodb.net:27017/?ssl=true&replicaSet=atlas-f4tops-shard-0&authSource=admin&retryWrites=true&w=majority/GamingStore", 
+    //.connect("mongodb://localhost:27017/GamingStore", 
 
             {
                 useNewUrlParser: true,
