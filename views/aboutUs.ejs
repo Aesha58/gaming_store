@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/layouts/style1.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <script src="https://cdn.jsdelivr.net/sharer.js/latest/sharer.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+         integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+      <title>Document</title>
+      <style>
+         @font-face {
+         font-family: fortnite;
+         src: url("/layouts/fortnite/fortnite.otf") format("opentype");
+         }
+      </style>
+   </head>
+   <body style="background-color: black;">
+    <!--This is nav bar-->
+         <header class="main-header" style="height:max-content;" >
+          <div class="container">
+            <%- include("./navbar.ejs") ; %>
+          </div>
+        </header>
+
+        <!--This is the rest of the bodyyyy-->
+      <div class="home--container container-fluid" id="font">
+         <div class="row">
+            <div class="col-lg-7 col-md-12 col-sm-12 home--title--container " id="img-container">
+               <br>
+               <img src="/img/usama.jpeg" class="d-block w-100" alt="pic1" >
+            </div>
+            <div class="col-lg-5  col-md-12 home--title--container" style="  margin-top: 100px;">
+               <div class="title--div" >
+                  <p id="title--heading bg-dark" style="color: white; font-size: 120px;">
+                     Usama
+                  </p>
+                  <p style="color: #ffc632; font-size: 120px; margin-top: -90px;">Tariq</p>
+               </div>
+               <div class="subheading-div">
+                  <p id="subheading" style="text-align: justify; color: white; font-size: large; margin-top: -30px; ">
+                     I have been into gaming my whole life and my aim still kinda sucks! I guess ill stick to selling games then.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="home--container container-fluid" id="font">
+        <div class="row">
+           <div class="col-lg-5  col-md-12 home--title--container" style="  margin-top: 100px;">
+              <div class="title--div" >
+                 <p id="title--heading bg-dark" style="color: white; font-size: 120px;">
+                    Ayesha
+                 </p>
+                 <p style="color: #ffc632; font-size: 120px; margin-top: -90px;">Shehzad</p>
+              </div>
+              <div class="subheading-div">
+                 <p id="subheading" style="text-align: justify; color: white; font-size:large; margin-top: -30px; ">
+                    I am a passionate coder and I also beat Usama once at Tekken, so I think qualified enough to be here.
+                 </p>
+              </div>
+           </div>
+
+           <div class="col-lg-7 col-md-12 col-sm-12 home--title--container " id="img-container">
+            <br>
+            <img src="/img/Ayesha.jpeg" class="d-block w-100" alt="pic1" >
+          </div>
+        </div>
+     </div>
+
+
+      <!--This the footer-->
+      <div class="container-fluid text-light" style="background-color: #f1bb32 ; height: 250px;" >
+         <%- include("./footer.ejs") ; %>
+       </div>
+
+     
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   </body>
+</html>
